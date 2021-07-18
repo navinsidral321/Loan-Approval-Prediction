@@ -1,0 +1,93 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	background:#F2D5F4;
+}
+.menu-bar{
+	background:#541958;
+	text-align:left;
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	
+}
+.menu-bar ul li{
+	width:150px;
+	margin:15px;
+	padding:10px;
+	padding-bottom:13px;
+	font-weight:bold;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:#F2D5F4;
+}
+.menu-bar ul li:hover {
+	background:#F2D5F4;
+	border-radius:3px;
+}
+.active, .menu-bar ul li:hover a{
+	color:black;
+}
+.menu-bar .fa{
+	margin-right:10px;
+}
+.Login{
+	display:none;
+	color:red;
+}
+.n{
+	width: 80%;
+	border: 1px solid #ccc;
+  box-sizing: border-box;
+	
+	margin: 20px 210px;
+	height:380px;
+	color:red;
+	
+}
+.mySlides {display:none;}
+.marq{
+
+width: 40%;
+  padding: 1200px 40px;
+  margin: 180px 90px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  color:red;
+}
+.menu-bar ul li:hover .Login {
+	display:block;
+	position:absolute;
+	background:#541958;
+	border: 1px solid black;
+	margin-bottom:1px;
+	border-radius:8px;
+	margin-top:15px;
+	margin-left:-15px;
+	font-size:20px;
+
+}
+.menu-bar ul li:hover .Login ul {
+	display:block;
+	margin:10px;
+	border: 0.5px solid white;
+	
+}
+.menu-bar ul li :hover .Login ul li {
+	width:150px;
+	padding:10px;
+	border-bottom:3px dotted #fff;
+	background:transparent;
+	border-radius:0px;
+	text-align:left;
+	
+}
+
+.menu-bar ul li :hover .Login ul li:hover a{
+	color:black;
+}
